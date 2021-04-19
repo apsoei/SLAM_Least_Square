@@ -19,7 +19,7 @@ nonlinear data file path ../data/2d_nonlinear.npz
 
 ex)
 
-'python3 linear.py ../data/2d_linear.npz --method lu_colamd'
+`python3 linear.py ../data/2d_linear.npz --method lu_colamd`
 
 Linear Case - Trajectory comparison to ground truth
 ![Test Image 1](results/linear_pinv_traj.png)
