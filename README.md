@@ -14,7 +14,9 @@ i.e. A.T A x = b.
 Solve methods include LU , COLAMD LU, custom LU,QR, COLAMD QR, pinv.
 
 linear data file path ../data/2d_linear.npz AND ../data/2d_linear_loop.npz
+
 nonlinear data file path ../data/2d_nonlinear.npz
+
 ex)
 
 'python3 linear.py ../data/2d_linear.npz --method lu_colamd'
