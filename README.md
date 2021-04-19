@@ -19,9 +19,12 @@ ex)
 
 'python3 linear.py ../data/2d_linear.npz --method lu_colamd'
 
-Trajectory comparison to ground truth
+Linear Case - Trajectory comparison to ground truth
 ![Test Image 1](results/linear_pinv_traj.png)
 
+Linear Case on loop path - Trajectory with ground truth
+![Test Image 2](results/linear_loop_pinv_traj.png)
+
 Matrix sparsity representation. (Upper matrix from linear LU COLAMD)
-![Test Image 2](results/linear_LUcolamd_mat.png)
+![Test Image 3](results/linear_LUcolamd_mat.png)
 
