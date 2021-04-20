@@ -10,7 +10,7 @@ Within the folder code, run linear.py or nonlinear.py.
 linear.py runs on linear system, nonlinear.py uses nonlinear measuremnt system.
 By default solver method uses default method, which takes psuedo inverse to solve for states.
 
-i.e. solving for A.T A x = A b. instead of A x = b.
+i.e. solving for A.T A x = A.T b. instead of A x = b.
 
 Solve methods include LU , COLAMD LU, custom LU,QR, COLAMD QR, pinv.
 
